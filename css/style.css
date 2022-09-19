@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/* header start */
+header{
+	padding: 10px 0;
+	background-color: #121b2a;
+	/* border: 1px solid yellow; */
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	/* border: 1px solid yellow; */
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	/* border: 1px solid aqua; */
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	margin-top: 16px;
+	width: 75%;
+	/* border: 1px solid aqua; */
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	padding: 15px 35px;
+	display: block;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	transition: .8s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078bd;
+}
+/* header end */
+
+
+/* banner start */
+.banner{
+	background-image: url('../images/banner.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.b_content{
+	margin-top: 200px;
+    margin-bottom: 80px;
+    width: 42%;
+}
+.b_content p:first-child {
+	margin: 0;
+	color: white;
+    font-size: 35px;
+}
+.b_content h1{
+	font-size: 40px;
+	color: #0078bd;
+	line-height: 60px;
+}
+.b_content p:nth-last-child(2) {
+	margin: 0;
+	line-height: 25px;
+	color: white;
+}
+.b_content button{
+	margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #5A5A5A;
+    background-color: white;
+    cursor: pointer;
+}
+.b_content button span{
+	margin-left: 10px;
+	border-radius: 50%;
+	color: aliceblue;
+    background-color: #0078bd;
+}
+/* banner end */
+
+/* service start */
+.service {
+	padding: 50px 0;
+	background-color: #121B2C;
+}
+
+.single {
+	margin-right: 2%;
+    padding-right: 3%;
+    width: 30%;
+    /* border: 1px solid aqua; */
+    float: left;
+}
+.single:last-child{
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.title {
+	/* border: 1px solid yellow; */
+	overflow: hidden;
+}
+
+.icon{
+	width: 20%;
+	/* border: 1px solid white; */
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+
+.icon_content {
+	margin-top: 9px;
+    padding: 0 9px;
+    width: 70%;
+    float: left;
+}
+.icon_content h1{
+	font-weight: normal;
+	text-transform: capitalize;
+	color: white;
+}
+.icon_content h2{
+	text-transform: capitalize;
+	color: #0078bd;
+}
+
+.content {}
+.content p{
+	line-height: 25px;
+	color: white;
+}
+/* service end */
+
+/* contact start */
+.contact{
+	padding: 50px 0;
+	background-color: #040811;
+}
+.container2{
+	margin: 0 auto;
+	width: 75%;
+	/* border: 1px solid red; */
+	overflow: hidden;
+}
+.single_content{
+	margin-right: 4%;
+    padding-right: 4%;
+    width: 28%;
+    float: left;
+}
+.single_content:nth-child(3){
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.first{
+	/* border: 1px solid yellow; */
+	color: #92969d;
+}
+.single_content h1{
+	color: white;
+}
+p{
+	line-height: 25px;
+}
+
+.second{
+	/* border: 1px solid yellow; */
+	color: #92969d;
+}
+span{
+	color: #0078bd;
+}
+
+.p1{
+	margin: 20px 0 40px;
+}
+.p2{
+	font-weight: 600;
+}
+
+
+.third{
+	/* border: 1px solid yellow; */
+	overflow: hidden;
+}
+.left{
+	margin-right: 30px;
+	float: left;
+}
+.right{
+	float: left;
+	/* border: 1px solid red; */
+}
+
+.right h2{
+	margin: 5px 0 10px;
+	color: #0078bd;
+}
+/* contact end */
+
+/* footer start */
+footer{
+	padding: 25px 0 35px;
+	background-color: #121B2C;
+	overflow: hidden;
+
+
+	color: white;
+}
+.menu_item{
+	width: 70%;
+	float: left;
+	/* border: 1px solid red; */
+}
+.menu_item ul{
+	overflow: hidden;
+}
+.menu_item ul li{
+	list-style: none;
+	float: left;
+}
+.menu_item ul li a{
+	margin-bottom: 20px;
+	padding: 0px 20px 0 20px;
+    border-right: 1px solid white;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.menu_item ul li:last-child a{
+	border: 0;
+}
+.menu_item ul li:first-child a{
+	padding-left: 0;
+}
+.logo_item{
+	width: 30%;
+	float: right;
+	/* border: 1px solid red; */
+}
+.logo_item a{
+    display: inline-block;
+    /* border: 1px solid white; */
+}
+.logo_item a:first-child{
+	margin-right: 4%;
+}
+/* footer end */
